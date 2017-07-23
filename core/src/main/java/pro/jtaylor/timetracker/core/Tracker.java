@@ -14,28 +14,28 @@ public class Tracker {
     /**
      * Add method
      * @param int index for entries
-     * /
+     */
     public void add(TimeEntry entry) {
         entries.add(entry);
     }
     /**
      * Remove method
      * @param TimeEntry to add to entries
-     * /
+     */
     public void remove(TimeEntry entry) {
         entries.remove(entry);
     }
     /**
      * Size method
      * @param int size for entries
-     * /
+     */
     public int size() {
         return entries.size();
     }
     /**
      * Get method
      * @param int index for entries
-     * /
+     */
     public TimeEntry get(int index) {
         return entries.get(index);
     }
